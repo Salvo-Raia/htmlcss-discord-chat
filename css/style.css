@@ -16,8 +16,18 @@
     height: 100%;
     width: 80px;
     background-color: blanchedalmond;
+    
 }
 
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar li {
+    display: block;
+    height: 50px;
+    text-align: center; 
+}
 
 /* Main - Contact List */
 
@@ -37,4 +47,19 @@ header {
 footer {
     height: 80px;
     background-color: rgb(22, 21, 21);
+}
+
+.low-nav-bar ul li {
+    display: inline-block;
+    width: 30%;
+    translate: 14%;
+}
+
+.low-nav-bar a span:last-child,
+.low-nav-bar a span:first-child {
+    display: block;
+    line-height: 80px;
+    text-align: center;
+    background-color: antiquewhite;
+   
 }
