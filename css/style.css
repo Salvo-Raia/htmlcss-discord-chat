@@ -1,0 +1,23 @@
+/* CSS Reset */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 80px);
+}
+
+
+/* Sidebar */ 
+
+/* Header */
+
+/* Main - Contact List */
+
+/* Footer */
+footer {
+    height: 80px;
+}
