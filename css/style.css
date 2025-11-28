@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+/* Generiche */
+
+body {
+    color: white;
+    background-color: #141318;
+    font-family: "TikTok Sans", sans-serif;
+}
+
 /* Container */ 
 .container {
     display: flex;
@@ -15,7 +23,7 @@
 .sidebar {
     height: 100%;
     width: 80px;
-    background-color: blanchedalmond;
+    background-color: #141318
 }
 
 .sidebar ul {
@@ -26,59 +34,137 @@
     display: block;
     height: 50px;
     text-align: center; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* CONTROLLARE PROBLEMA CENTRATURA SE DICO IMG DISPLAY BLOCK 
+   PER ORA DO UN'ALTEZZA FISSA AL DIV*/
+.sidebar li div {
+    margin: 0 auto;
+    height: 60px;
+}
+
+.sidebar img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+/* Main - Header */
+header {
+    height: 100px;
+    background-color: #1c1d22;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+header ul {
+    margin-top: 5px;
+}
+
+header li {
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
+
+header li:first-child {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: rgb(55 58 67);
+}
+
+header li:last-child {
+display: inline-block;
+width: 310px;
+text-align: center;
+background-color: rgb(55 58 67);
+border-radius: 15px;
+padding: 5px;
+}
+
+
+header li>a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
 }
 
 /* Main - Contact List */
-
 main {
     height: 100%;
     width: calc(100% - 80px);
-    background-color: purple;
+    background-color: #1c1d22;
+    border-radius: 35px 0 0 0;
     overflow: auto;
 }
 
 .message-container {
     display: flex;
-    background-color: orange;
+    align-items: center;
+    background-color: #1c1d22;
+    color: rgb(112, 112, 112);
     height: 80px;
     gap: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.message-container:hover {
+    background-color: rgb(38 38 46);
+    border-radius: 20px;
+    color: white;
+}
+
+.message-container:first-of-type {
+    margin-top: 10px;
 }
 
 .contact-avatar {
-    height: 100%;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     flex-shrink: 0;
     flex-grow: 0;
     background-color: rgb(16, 17, 87);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.contact-avatar img {
+    display: block;
+    height: 100%;
 }
 
 .mex-time-elapsed {
     display: block;
     flex-shrink: 0;
-    height: 100%;
-    line-height: 80px;
-    background-color: purple;
 }
 
 .mex-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     flex-basis: 80%;
-    background-color: azure;
 }
 
-/* Main - Header */
-header {
-    height: 80px;
-    background-color: aqua;
+.mex-wrapper h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.mex-wrapper p {
+    font-size: 1rem;
 }
 
 /* Footer */
 footer {
     height: 80px;
-    background-color: rgb(22, 21, 21);
+    background-color: rgb(55 58 67);
 }
 
 .low-nav-bar {
@@ -98,10 +184,38 @@ footer {
     padding: 10px 0;
 }
 
+.low-nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
 .low-nav-bar span {
     display: block;
     height: 50%;
+    font-size: 24px;
 }
+
+.low-nav-bar span:last-child {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.low-nav-bar div {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid white;
+    margin: 0 auto;
+}
+
+.low-nav-bar img {
+    height: 100%;
+}
+
+
+
+
 
 
 
