@@ -39,23 +39,34 @@ main {
 
 .message-container {
     display: flex;
-    background-color: rgb(255, 174, 0);
+    background-color: orange;
     height: 80px;
-    border: 2px solid rgb(255, 0, 0);
+    gap: 10px;
     margin: 10px;
 }
 
-.avatar-pic {
-    display: inline-block;
-    background-color: beige;
+.contact-avatar {
+    height: 100%;
     width: 80px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    background-color: rgb(16, 17, 87);
 }
 
-.contact-name  {
-    display: inline-block;
-    height: 50%;
-    width: 80%;
-    background-color: black;
+.mex-time-elapsed {
+    display: block;
+    flex-shrink: 0;
+    height: 100%;
+    line-height: 80px;
+    background-color: purple;
+}
+
+.mex-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 80%;
+    background-color: azure;
 }
 
 /* Main - Header */
