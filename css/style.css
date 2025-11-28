@@ -49,17 +49,28 @@ footer {
     background-color: rgb(22, 21, 21);
 }
 
-.low-nav-bar ul li {
-    display: inline-block;
-    width: 30%;
-    translate: 14%;
+.low-nav-bar {
+    height: 100%;
 }
 
-.low-nav-bar a span:last-child,
-.low-nav-bar a span:first-child {
-    display: block;
-    line-height: 80px;
-    text-align: center;
-    background-color: antiquewhite;
-   
+.low-nav-bar ul {
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
+
+.low-nav-bar li {
+    flex-basis: 33%;
+    text-align: center;
+        padding: 10px;
+}
+
+.low-nav-bar span {
+    display: block;
+    height: 50%;
+}
+
+
+
+
