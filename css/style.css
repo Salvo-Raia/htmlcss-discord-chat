@@ -5,19 +5,36 @@
     box-sizing: border-box;
 }
 
+/* Container */ 
 .container {
     display: flex;
     height: calc(100vh - 80px);
 }
 
-
 /* Sidebar */ 
+.sidebar {
+    height: 100%;
+    width: 80px;
+    background-color: blanchedalmond;
+}
 
-/* Header */
 
 /* Main - Contact List */
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: purple;
+}
+
+/* Main - Header */
+header {
+    height: 80px;
+    background-color: aqua;
+}
 
 /* Footer */
 footer {
     height: 80px;
+    background-color: rgb(22, 21, 21);
 }
