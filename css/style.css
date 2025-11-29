@@ -231,7 +231,6 @@ main {
 }
 
 .mex-time-elapsed {
-    display: block;
     flex-shrink: 0;
 }
 
@@ -323,10 +322,9 @@ footer {
     height: 100%;
 }
 
+.low-nav-bar li:hover {
+    background-color: #1c1d22;
 
-
-
-
-
+}
 
 
