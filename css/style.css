@@ -36,12 +36,14 @@ body {
     width: 50px;
 }
 
-
-/* !!Aggiungere ececzione per prima icona!! */
 .sidebar li div {
     margin: 20px 0;
     overflow: hidden;
     border-radius: 50%;
+}
+
+.sidebar li:first-child div  {
+    border-radius: 0;
 }
 
 .sidebar img {
