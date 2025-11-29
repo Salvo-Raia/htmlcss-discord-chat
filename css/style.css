@@ -16,7 +16,7 @@ body {
 /* Container */ 
 .container {
     display: flex;
-    height: calc(100vh - 90px); /* 90px = 80px di footer + 10 di margine superiore per l'effettino di rientranza */
+    height: calc(100vh - 90px); /* 90px = 80px di footer + 10px di margine superiore per l'effettino di rientranza */
     margin-top: 10px;
 }
 
