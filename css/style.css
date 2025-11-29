@@ -186,9 +186,6 @@ main {
     background-color: rgb(231, 210, 15);
 }
 
-
-
-
 .contact-avatar img {
     display: block;
     height: 50px;
@@ -213,6 +210,22 @@ main {
 
 .mex-wrapper p {
     font-size: 1rem;
+}
+
+.fixed-chat-icon {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 100px;
+    right: 50px;
+    font-size: 30px;
+    background-color: #5865f2;
+    text-align: center;
+    line-height: 56px; /* 56px = 60px di altezza - 2px di bordo*2 (sopra e sotto, o non la centro) */
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 6px 4px 13px 2px rgba(0, 0, 0, 0.67);
 }
 
 /* Footer */
