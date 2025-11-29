@@ -28,28 +28,66 @@ body {
 
 .sidebar ul {
     list-style-type: none;
-        margin: 20px auto;
 }
 
 .sidebar li {
-    margin: 0 auto;
-    width: 50px;
+    position:relative;
+    width: 100%;
 }
 
 .sidebar li div {
-    margin: 20px 0;
+    position: relative;
+    width: 50px;
+    margin: 20px auto;
     overflow: hidden;
     border-radius: 50%;
+    transition: transform 0.05s linear;
 }
 
 .sidebar li:first-child div  {
     border-radius: 0;
 }
 
+.sidebar li div:hover {
+    transform: scale(1.15);
+}
+
+.sidebar li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    translate: 0 -50%;
+    width: 5px;
+    height: 15px; 
+    background-color: white;
+    border-radius: 0 20px 20px 0
+}
+
+.sidebar li:hover::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 5px;
+    height: 50px; 
+    background-color: white;
+    border-radius: 0 20px 20px 0
+}
+
+.sidebar li.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 5px;
+    height: 50px; 
+    background-color: white;
+    border-radius: 0 20px 20px 0
+}
+
 .sidebar img {
+    margin: 0 auto;
     display: block;
     height: 50px;
-    width: 50px
 }
 
 /* Main - Header */
@@ -226,6 +264,11 @@ main {
     border-radius: 50%;
     border: 2px solid white;
     box-shadow: 6px 4px 13px 2px rgba(0, 0, 0, 0.67);
+    transition: transform 0.3s ease;
+}
+
+.fixed-chat-icon:hover {
+    transform: scale(1.05);
 }
 
 /* Footer */
