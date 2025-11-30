@@ -10,13 +10,13 @@
 body {
     color: white;
     background-color: #141318;
-    font-family: "TikTok Sans", sans-serif;
+    font-family: "DM Sans", sans-serif;
 }
 
 /* Container */ 
 .container {
     display: flex;
-    height: calc(100vh - 90px); /* 90px = 80px di footer + 10px di margine superiore per l'effettino di rientranza */
+    height: calc(100vh - 90px); /* 90px = 80px di footer + 10px di margine superiore altrimenti non ottengo l'effettino di rientranza */
     margin-top: 10px;
 }
 
@@ -108,7 +108,6 @@ header li {
     list-style: none;
     font-size: 20px;
     margin-right: 10px;
-    
 }
 
 header li:first-child {
@@ -129,6 +128,9 @@ border-radius: 15px;
 padding: 5px;
 }
 
+header ul>li:hover {
+    background-color: rgb(88 101 242);
+}
 
 header li>a {
     text-decoration: none;
@@ -138,13 +140,14 @@ header li>a {
 
 /* Main - Contact List */
 main {
-    width: calc(100% - 80px);
+    width: calc(100vw - 80px);
     background-color: #1c1d22;
     border-radius: 20px 0 0 0; /*Non di più, altrimenti si nota un difettuccio */
 }
 
 .contact-list {
     height: calc(100% - 120px); /* 120px = 100px di header + 20px del suo margin */
+    margin-left:20px;
     overflow: auto;
 }
 
@@ -155,18 +158,13 @@ main {
     color: rgb(112, 112, 112);
     height: 80px;
     gap: 10px;
-    padding: 20px;
-    margin-left: 15px;
+    padding: 15px;
 }
 
 .message-container:hover {
     background-color: rgb(38 38 46);
     border-radius: 20px;
     color: white;
-}
-
-.message-container:first-of-type {
-    margin-top: 10px;
 }
 
 .contact-avatar {
@@ -235,9 +233,7 @@ main {
 }
 
 .mex-wrapper {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 80%;
+    flex-basis: 85%;
 }
 
 .mex-wrapper h2 {
@@ -288,7 +284,7 @@ footer {
 }
 
 .low-nav-bar li {
-    flex-basis: 33%;
+    flex-basis: 34%;
     text-align: center;
     padding: 10px 0;
 }
