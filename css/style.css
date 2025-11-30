@@ -140,7 +140,7 @@ header li>a {
 
 /* Main - Contact List */
 main {
-    width: calc(100vw - 80px);
+    width: calc(100% - 80px);
     background-color: #1c1d22;
     border-radius: 20px 0 0 0; /*Non di più, altrimenti si nota un difettuccio */
 }
