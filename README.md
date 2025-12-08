@@ -3,6 +3,7 @@
 Nome repo: `htmlcss-discord-chat`
 
 ## Consegna 
+
 Proviamo a replicare il layout della chat di Discord in versione mobile! 
 Questo Layout è composto da una sidebar coi diversi server, un footer e una sezione principale composta di un header e di una lista di chat. 
 
