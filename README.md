@@ -1,19 +1,49 @@
-# Esercizio: Discord Chat
+![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
 
-Nome repo: `htmlcss-discord-chat`
+# 🎓 Exercise 07/50 - Discord Chat
 
-## Consegna 
+Recreating the mobile Discord chat layout using the layout and alignment techniques learned so far.
 
-Proviamo a replicare il layout della chat di Discord in versione mobile! 
-Questo Layout è composto da una sidebar coi diversi server, un footer e una sezione principale composta di un header e di una lista di chat. 
+## 📌 Project Overview
 
-Mettete alla prova ciò che avete imparato rispetto al layout ed agli allineamenti e fate buon uso delle tecniche imparate finora. 
+| Property | Details |
+|:--|:--|
+| Repository | htmlcss-discord-chat |
+| Category | Boolean Tech Academy |
+| Type | Exercise |
+| Exercise | 07/50 |
 
-**Bonus**
+## 🎯 Assignment
 
-* Inserire un pallino colorato che rappresenta lo stato dell’utente
-* Sulla sidebar, appare una barra laterale bianca su uno degli elementi, indicando il server attuale (ovviamente a piacimento)
-* Proviamo ad ottenere lo stesso effetto al passaggio del mouse e aggiungiamo anche un lieve ingrandimento dell’icona del server
-* Al passaggio del mouse i box delle chat vengono evidenziati con un grigio più chiaro.
-* Se sono presenti molti contatti, la scrollbar appare solo sulla sezione dedicata all lista delle chat.
-* Aggiungere un bottone rapido di nuova chat in basso a destra in posizione fissa.
+Recreate the mobile version of the Discord chat interface!
+
+The layout consists of a sidebar containing the different servers, a footer, and a main section featuring a header and a list of chats.
+
+Put your knowledge of layouts and alignment to the test, making good use of the techniques learned so far.
+
+### ⭐ Bonus
+
+Try to implement the following additional features:
+
+- Add a colored dot to indicate the user's online status.
+- Add a white vertical indicator to one of the sidebar items to show the currently selected server (your choice).
+- Recreate the same effect on hover and slightly enlarge the server icon.
+- Highlight chat boxes with a lighter gray background on hover.
+- When there are many contacts, make the scrollbar appear only in the chat list section.
+- Add a quick-access button for creating a new chat, fixed to the bottom-right corner.
+
+## 🛠️ Technologies
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)
+
+## 💡 What I Learned
+
+- Recreating a mobile chat interface using HTML and CSS.
+- Organizing a layout with a sidebar, header, footer and main content area.
+- Managing element alignment and spacing.
+- Controlling overflow and scrolling within a specific section.
+- Using CSS positioning to place fixed interface elements.
+
+## ©️ Credits
+
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
