@@ -1,6 +1,6 @@
-![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 07/50 - Discord Chat
+# 🎓 Exercise 07/50: Discord Chat
 
 Recreating the mobile Discord chat layout using the layout and alignment techniques learned so far.
 
@@ -46,4 +46,4 @@ Try to implement the following additional features:
 
 ## ©️ Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
