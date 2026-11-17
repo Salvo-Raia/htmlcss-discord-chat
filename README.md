@@ -1,10 +1,10 @@
 ![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 07/50: Discord Chat
+# Exercise 07/50: Discord Chat
 
 Recreating the mobile Discord chat layout using the layout and alignment techniques learned so far.
 
-## 📌 Project Overview
+## Project Overview
 
 | Property | Details |
 |:--|:--|
@@ -13,7 +13,7 @@ Recreating the mobile Discord chat layout using the layout and alignment techniq
 | Type | Exercise |
 | Exercise | 07/50 |
 
-## 🎯 Assignment
+## Assignment
 
 Recreate the mobile version of the Discord chat interface!
 
@@ -21,7 +21,7 @@ The layout consists of a sidebar containing the different servers, a footer, and
 
 Put your knowledge of layouts and alignment to the test, making good use of the techniques learned so far.
 
-### ⭐ Bonus
+**Bonus**
 
 Try to implement the following additional features:
 
@@ -32,11 +32,11 @@ Try to implement the following additional features:
 - When there are many contacts, make the scrollbar appear only in the chat list section.
 - Add a quick-access button for creating a new chat, fixed to the bottom-right corner.
 
-## 🛠️ Technologies
+## Technologies
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)
 
-## 💡 What I Learned
+## What I learned
 
 - Recreating a mobile chat interface using HTML and CSS.
 - Organizing a layout with a sidebar, header, footer and main content area.
@@ -44,6 +44,6 @@ Try to implement the following additional features:
 - Controlling overflow and scrolling within a specific section.
 - Using CSS positioning to place fixed interface elements.
 
-## ©️ Credits
+## Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025-2026).
