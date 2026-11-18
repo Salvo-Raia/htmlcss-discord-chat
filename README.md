@@ -4,14 +4,11 @@
 
 Recreating the mobile Discord chat layout using the layout and alignment techniques learned so far.
 
-## Project Overview
+## Project overview
 
-| Property | Details |
-|:--|:--|
-| Repository | htmlcss-discord-chat |
-| Category | Boolean Tech Academy |
-| Type | Exercise |
-| Exercise | 07/50 |
+| Repository | Project | Category | Main Focus | Exercise |
+|:--|:--|:--|:--|:--|
+| htmlcss-discord-chat | Discord Chat | Exercise | CSS Layout & Alignment | 07/50 |
 
 ## Assignment
 
@@ -21,7 +18,7 @@ The layout consists of a sidebar containing the different servers, a footer, and
 
 Put your knowledge of layouts and alignment to the test, making good use of the techniques learned so far.
 
-#### Bonus
+#### Bonus challenge
 
 Try to implement the following additional features.
 
