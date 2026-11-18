@@ -21,9 +21,9 @@ The layout consists of a sidebar containing the different servers, a footer, and
 
 Put your knowledge of layouts and alignment to the test, making good use of the techniques learned so far.
 
-**Bonus**
+#### Bonus
 
-Try to implement the following additional features:
+Try to implement the following additional features.
 
 - Add a colored dot to indicate the user's online status.
 - Add a white vertical indicator to one of the sidebar items to show the currently selected server (your choice).
