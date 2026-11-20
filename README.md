@@ -8,7 +8,7 @@ Recreating the mobile Discord chat layout using the layout and alignment techniq
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| htmlcss-discord-chat | Discord Chat | Exercise | CSS Layout & Alignment | 07/50 |
+| htmlcss-discord-chat | Discord Chat | Exercise | CSS layout & Alignment | 07/50 |
 
 ## Assignment
 
@@ -31,7 +31,8 @@ Try to implement the following additional features.
 
 ## Technologies
 
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) 
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)
 
 ## What I learned
 
