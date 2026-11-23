@@ -8,7 +8,7 @@ Recreating the mobile Discord chat interface using the layout and alignment tech
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| htmlcss-discord-chat | Discord Chat | Exercise | CSS layout & Alignment | 07/50 |
+| htmlcss-discord-chat | Discord Chat | Exercise | CSS layout, Alignment | 07/50 |
 
 ## Assignment
 
