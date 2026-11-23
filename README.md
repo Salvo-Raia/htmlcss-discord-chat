@@ -2,7 +2,7 @@
 
 # Exercise 07/50: Discord Chat
 
-Recreating the mobile Discord chat layout using the layout and alignment techniques learned so far.
+Recreating the mobile Discord chat interface using the layout and alignment techniques learned so far.
 
 ## Project overview
 
